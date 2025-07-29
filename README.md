@@ -7,7 +7,7 @@ Collaboration effort by Quy Nguyen, Ngan Kha and Yen Do
 - This project implements a Machine Learning based Intrusion Detection System using the CIC-IDS2017 dataset. Currently, there is only the Random Forest Model instead of having 2 more, consisting of KNN and SVM models, which were taken out for a remaster.
 
 # Structure:
-- data folder: contains two more folders, one containing the original dataset downloaded from the Canadian Institute for Cybersecurity and a cleaned_dataset folder, created during the preprocess procedure.
+- data folder: contains at least two more folders, one containing the original dataset downloaded from the Canadian Institute for Cybersecurity and a cleaned_dataset folder, created during the preprocess procedure. More folders will be created after running your specific machine learning models, containing the results of the ML execution.
 - script folder: contains all scripts of the project, including:
 + preprocess.py: perform data cleaning (ensuring NaN, rounding to a definite value, and dropping duplicates)
 + machine learning models: Python scripts that uses specific ML models such as Random Forest. Other scripts are not yet included.
