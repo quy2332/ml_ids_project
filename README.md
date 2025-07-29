@@ -37,4 +37,6 @@ Wednesday-workingHours.pcap_ISCX
 
 - Navigate to the script folder, and simply run python3 preprocess.py first. Once done, you can run python3 random_forest.py or any existing models in no particular order, as long as they are ran after preprocess.py and before combined_evaluation_results.py. 
 - Running python3 combined_evaluation_results.py will display your model results, which a sample of a random forest run can be seen below:
-![Evaluation Table](screenshots/random_forest_result.png
+
+
+![Evaluation Table](screenshots/random_forest_result.png)
