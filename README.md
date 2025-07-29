@@ -37,22 +37,4 @@ Wednesday-workingHours.pcap_ISCX
 
 - Navigate to the script folder, and simply run python3 preprocess.py first. Once done, you can run python3 random_forest.py or any existing models in no particular order, as long as they are ran after preprocess.py and before combined_evaluation_results.py. 
 - Running python3 combined_evaluation_results.py will display your model results, which a sample of a random forest run can be seen below:
-+----+----------------------------+----------+--------+-----------+----------+
-|    |        Attack Type         | Accuracy | Recall | Precision | F1-Score |
-+----+----------------------------+----------+--------+-----------+----------+
-| 0  |           BENIGN           |  0.9999  | 0.7666 |  0.7667   |  0.7667  |
-| 1  |            Bot             |  0.9705  | 0.4852 |    0.5    |  0.4925  |
-| 2  |            DDoS            |  0.9998  | 0.4999 |    0.5    |   0.5    |
-| 3  |       DoS-GoldenEye        |  0.9985  | 0.3328 |  0.3333   |  0.3331  |
-| 4  |          DoS-Hulk          |  0.9998  | 0.3333 |  0.3333   |  0.3333  |
-| 5  |      DoS-Slowhttptest      |  0.9952  | 0.3317 |  0.3333   |  0.3325  |
-| 6  |       DoS-slowloris        |  0.9907  | 0.3302 |  0.3333   |  0.3318  |
-| 7  |        FTP-Patator         |   1.0    |  1.0   |    1.0    |   1.0    |
-| 8  |         Heartbleed         |   1.0    |  1.0   |    1.0    |   1.0    |
-| 9  |        Infiltration        |  0.7143  | 0.3571 |    0.5    |  0.4167  |
-| 10 |          PortScan          |  0.9998  | 0.4999 |    0.5    |   0.5    |
-| 11 |        SSH-Patator         |  0.9891  | 0.4946 |    0.5    |  0.4973  |
-| 12 |  Web-Attack- -Brute-Force  |  0.6446  | 0.1888 |  0.2916   |  0.2292  |
-| 13 | Web-Attack- -Sql-Injection |  0.625   | 0.2708 |  0.4166   |  0.3254  |
-| 14 |      Web-Attack- -XSS      |  0.5916  | 0.1972 |  0.3333   |  0.2476  |
-+----+----------------------------+----------+--------+-----------+----------+
+![Evaluation Table](screenshots/random_forest_result.png
