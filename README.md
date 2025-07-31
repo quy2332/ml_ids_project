@@ -70,25 +70,16 @@ Wednesday-workingHours.pcap\_ISCX
 
 (and any additional content that you may have, such as backup folders)
 
-<<<<<<< HEAD
+
 - Navigate to the script folder, and simply run python3 preprocess.py first. Once done, you can run python3 random_forest.py or any existing models in no particular order, as long as they are ran after preprocess.py and before combined_evaluation_results.py. 
 - Running python3 combined_evaluation_results.py will display your model results, which a sample of a random forest run can be seen below:
 
 
 ![Evaluation Table](screenshots/random_forest_result.png)
-=======
-
-
-\- Navigate to the script folder, and simply run python3 preprocess.py first. Once done, you can run python3 random\_forest.py or any existing models in no particular order, as long as they are ran after preprocess.py and before combined\_evaluation\_results.py. 
-
-\- Running python3 combined\_evaluation\_results.py will display your model results, which a sample of a random forest run can be seen below:
 
 
 
 
+And here is the result of the KNN Model:
 
-!\[Evaluation Table](screenshots/random\_forest\_result.png)
-
-
-
->>>>>>> 6e2370b (Added an image containing the results of the KNN Model)
+!\[Evaluation Table](screenshots/knn_result.png)
