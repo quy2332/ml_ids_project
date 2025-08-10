@@ -1,6 +1,6 @@
 W.I.P Project
 
-\# Machine Learning / Deep Learning Intrusion Detection System (IDS
+\ Machine Learning / Deep Learning Intrusion Detection System (IDS
 
 
 
@@ -8,13 +8,13 @@ Collaboration effort by Quy Nguyen, Ngan Kha and Yen Do
 
 
 
-\# Project Description:
+\ Project Description:
 
 \- This project implements a Machine Learning based Intrusion Detection System using the CIC-IDS2017 dataset. Currently, there is only the Random Forest Model instead of having 2 more, consisting of KNN and SVM models, which were taken out for a remaster.
 
 
 
-\# Structure:
+\ Structure:
 
 \- data folder: contains at least two more folders, one containing the original dataset downloaded from the Canadian Institute for Cybersecurity and a cleaned\_dataset folder, created during the preprocess procedure. More folders will be created after running your specific machine learning models, containing the results of the ML execution.
 
@@ -28,7 +28,7 @@ Collaboration effort by Quy Nguyen, Ngan Kha and Yen Do
 
 
 
-\# Setup:
+\ Setup:
 
 \- Please be in the main directory of the project in your terminal, and setup a virtual environment such as venv.
 
@@ -82,4 +82,4 @@ Wednesday-workingHours.pcap\_ISCX
 
 And here is the result of the KNN Model:
 
-!\[Evaluation Table](screenshots/knn_result.png)
+![Evaluation Table](screenshots/knn_result.png)
