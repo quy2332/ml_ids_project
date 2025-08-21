@@ -5,7 +5,10 @@ from tabulate import tabulate
 # Folder mappings (easy to extend later for other models if wanted)
 folders_to_check = {
     'Random Forest': '../data/rf_tuned_results',
+    'K-Nearest Neighbor': '../data/knn_tuned_results',
+    'Multilayer Perceptron': '../data/mlp_tuned_results',
 }
+
 
 # Helper function to combine and print results for a given model
 def process_results(model_name, results_dir):
