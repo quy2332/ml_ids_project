@@ -83,3 +83,7 @@ Wednesday-workingHours.pcap\_ISCX
 And here is the result of the KNN Model:
 
 ![Evaluation Table](screenshots/knn_result.png)
+
+
+Here is also the result of the MLP Model:
+![Evaluation Table](screenshots/mlp_result.png)
